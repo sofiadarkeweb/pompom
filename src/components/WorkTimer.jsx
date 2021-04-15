@@ -4,7 +4,7 @@ import Timer from "react-compound-timer";
 // import boopSfx from "../../sounds/boop.mp3";
 import { useState } from "react";
 
-import soundfile from "../soundfile_2.wav";
+import soundfile from "../soundfile2.wav";
 
 const Alarm = new Audio(soundfile);
 
@@ -32,7 +32,7 @@ const WorkTimer = () => {
 
 	return (
 		<Timer
-			initialTime={15000}
+			initialTime={1500}
 			startImmediately={false}
 			direction="backward"
 			// onStart={() => Alarm.play()}
@@ -54,7 +54,7 @@ const WorkTimer = () => {
 					<div className="the-time" id="the-time-id">
 						<Timer.Minutes />
 						<span>:</span>
-						{zero}
+						{/* {zero} */}
 						<Timer.Seconds />
 					</div>
 

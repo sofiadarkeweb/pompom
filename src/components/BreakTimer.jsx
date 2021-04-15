@@ -1,7 +1,7 @@
 import React from "react";
 import Timer from "react-compound-timer";
 
-import soundfile from "../soundfile_break.wav";
+import soundfile from "../soundfilebreak.wav";
 
 const Alarm = new Audio(soundfile);
 
