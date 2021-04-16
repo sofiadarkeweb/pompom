@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/pompom/static/css/main.14b05c35.chunk.css",
+    "main.js": "/pompom/static/js/main.16ce1bb0.chunk.js",
+    "main.js.map": "/pompom/static/js/main.16ce1bb0.chunk.js.map",
+    "runtime-main.js": "/pompom/static/js/runtime-main.0aa8301e.js",
+    "runtime-main.js.map": "/pompom/static/js/runtime-main.0aa8301e.js.map",
+    "static/js/2.675d81ef.chunk.js": "/pompom/static/js/2.675d81ef.chunk.js",
+    "static/js/2.675d81ef.chunk.js.map": "/pompom/static/js/2.675d81ef.chunk.js.map",
+    "static/js/3.117eb4b3.chunk.js": "/pompom/static/js/3.117eb4b3.chunk.js",
+    "static/js/3.117eb4b3.chunk.js.map": "/pompom/static/js/3.117eb4b3.chunk.js.map",
+    "index.html": "/pompom/index.html",
+    "static/css/main.14b05c35.chunk.css.map": "/pompom/static/css/main.14b05c35.chunk.css.map",
+    "static/js/2.675d81ef.chunk.js.LICENSE.txt": "/pompom/static/js/2.675d81ef.chunk.js.LICENSE.txt",
+    "static/media/soundfile2.b222ebf0.wav": "/pompom/static/media/soundfile2.b222ebf0.wav",
+    "static/media/soundfilebreak.492ea39f.wav": "/pompom/static/media/soundfilebreak.492ea39f.wav"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0aa8301e.js",
+    "static/js/2.675d81ef.chunk.js",
+    "static/css/main.14b05c35.chunk.css",
+    "static/js/main.16ce1bb0.chunk.js"
+  ]
+}
