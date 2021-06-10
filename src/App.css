@@ -90,8 +90,19 @@ button:hover {
 	font-weight: 700;
 }
 
-@media only screen and (max-width: 600px) {
+@media screen and (max-width: 900px) {
 	.the-time {
 		font-size: 10rem;
+	}
+}
+@media screen and (max-width: 600px) {
+	.the-time {
+		font-size: 7rem;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.the-time {
+		font-size: 5rem;
 	}
 }
