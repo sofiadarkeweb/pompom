@@ -3,16 +3,15 @@ import "./App.css";
 import Header from "./components/Header";
 import BreakTimer from "./components/BreakTimer";
 import Button from "./components/Button";
-import Tasks from "./components/Tasks";
+
 import WorkTimer from "./components/WorkTimer";
 import { useState } from "react";
-import TestTimer from "./components/TestTimer";
 
-const children = ({ remainingTime }) => {
-	const minutes = Math.floor(remainingTime / 60);
-	const seconds = remainingTime % 60;
-	return `${minutes}m:${seconds}s`;
-};
+// const children = ({ remainingTime }) => {
+// 	const minutes = Math.floor(remainingTime / 60);
+// 	const seconds = remainingTime % 60;
+// 	return `${minutes}m:${seconds}s`;
+// };
 
 function App() {
 	const [workTimerShowing, setWorkTimerShowing] = useState(true);
@@ -37,7 +36,7 @@ function App() {
 			// }}
 		>
 			<Header />
-			<TestTimer />
+
 			<div className="work-break">
 				<Button className="timer-btn" title="work" handleClick={handleClick} />
 				<Button className="timer-btn" title="break" handleClick={handleClick} />
